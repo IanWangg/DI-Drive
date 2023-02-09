@@ -1,0 +1,92 @@
+## v0.2.1 (2021.11.18)
+- Add NoCrash Carla099
+- Add bev dataset
+- Add Carla AD Challenge scenarios and routes
+- Add LBC data collection and BeV training doc
+- Add Latent RL BeV and RL training doc
+- Add validation in LBC training
+- Update Benchmark datasaver
+- Update VAE model
+- Update LBC Image policy learn mode
+- Fix bug in benchmark collector
+- Fix visualizer not closed after done
+- Fix not alived sensor killed bug
+
+
+## v0.2.0 (2021.11.1)
+- Update DI-engine to version 0.2.0
+- Reformat CIL to CILRS
+- Add CILRS dataset, model, policy and entry
+- Add LBC data collection and dataset
+- Add LBC BeV training entry
+- Add simple RL demo doc 
+- Add logger and should eval for all evaluators
+- Add enable save replay in DI-engine demos
+- Update IL tutorial and CILRS demo doc
+- Update Steer Noise wrapper
+- Update Benchmark datasaver and collector
+- Fix import bug in sensor helper
+- Fix visualization bug
+
+
+## v0.1.3 (2021.9.19)
+
+- Update DI-engine to version 0.1.1
+- Add serial evaluator for evaluation in training. It has tensorboard
+- Update single and benchmark evaluator
+- Update simple_rl entries. Adapt ding 0.1.1
+- Modify models in simple_rl. Use modules in ding
+- Modify env wrapper in simple_rl. Add inputs for discrete wrapper
+- Update config system in RL. Move all without server into env and policy
+- Update comple_config to adapt new system
+- Add CICT eval
+- Fix bug in BasicPlanner
+- Fix bug in implicit train_sl
+- Fix figure in doc
+- Add auto doc in github pages
+
+
+## v0.1.2 (2021.9.2)
+
+- Rename 'orientation' to 'forward_vector'
+- Redefine train, test, and eval in demo
+- Move 'utils' in simple rl into core
+- Add Latent RL demo, including env, DQN train, test and eval
+- Add MPC controller with waypoints input
+- Add AutoMPCPolicy, rename AutoPolicy to AutoPIDPolicy
+- Add Vanilla VAE model
+- Add API doc for MPC controller
+- Add API doc for LPC Policy
+- Update evaluator. It now returns success / success rate
+- Fix a bug that walker controller may be identified as walker in CarlaDataProvider
+- Fix birdview visualizer to show less channels
+
+## v0.1.1 (2021.8.16)
+
+- Update AutoPolicy: better performance in multi-lane maps
+- Add bike avoidance and agent state in behavior planner
+- Add CICT IL method: data, train, eval and test
+- Add CICT doc
+- Add LBC: eval and test
+- Add LBC: doc
+- Add common PID controller
+- Add LBC planner
+- Add transform obs for evaluator
+- Add velocity, angular velocity and rotation in simulator's navigation and data provider
+- Modify initialization of AutoPolicy
+- Fix bugs in default config of all modules
+- Add overview for Implicit Affordance doc
+
+## v0.1.0.1 (2021.7.21)
+
+- Fix import error in scenario files.
+- Fix CIL running issues (collect/train/eval).
+- Fix a bug in ResNetV2 model.
+- Fix a typo bug in scenario manager.
+- Remove useless data utils in CIL.
+- Change some expressions in simulator API and casezoo doc.
+- Add specific version of scipy in setup.py
+
+## v0.1.0 (2021.7.8)
+
+Initial project
